@@ -1,0 +1,33 @@
+# === Operating System Files ===
+.DS_Store          # macOS
+Thumbs.db          # Windows
+*.lnk              # Shortcuts
+
+# === Editor/IDE Files ===
+.vscode/           # VS Code settings
+.idea/             # JetBrains IDE
+*.suo              # Visual Studio
+
+# === Language-Specific ===
+__pycache__/       # Python cache
+node_modules/      # Node.js
+*.class            # Java
+bin/               # Compiled binaries
+
+# === Logs & Temp Files ===
+*.log
+*.tmp
+*.swp
+
+# === Environment Secrets ===
+.env               # Environment variables
+*.key              # Private keys
+secrets.json       # API keys
+
+# === Build/Dependency Folders ===
+dist/
+build/
+
+# Node.js
+node_modules/
+npm-debug.log
